@@ -1,0 +1,51 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: -20rem;
+}
+.container h1 {
+  color: aliceblue;
+}
+.container P {
+  color: aliceblue;
+}
+.container a {
+  text-decoration: none;
+  color: rgb(227, 255, 115);
+}
+.container .container--img img {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  transition: all 0.5s;
+}
+.container .container--btn input[type=button] {
+  background-color: white;
+  color: #1c1c1c;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  width: 10rem;
+  font-size: 1.2rem;
+  text-align: center;
+  height: 4rem;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin: 0px 20px;
+  border: none;
+}
+.container .container--btn input[type=button]:hover {
+  background-color: gray;
+  color: aliceblue;
+}/*# sourceMappingURL=style.css.map */
